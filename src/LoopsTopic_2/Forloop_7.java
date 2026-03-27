@@ -1,3 +1,4 @@
+// FINDING TABLE OF ANY NO UPTO 10
 package LoopsTopic_2;
 import java.util.Scanner;
 public class Forloop_7 {
