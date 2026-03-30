@@ -1,3 +1,4 @@
+// sum of n natural nos
 package LoopsTopic_2;
 import java.util.Scanner;
 public class whileloop_02 {
