@@ -11,6 +11,7 @@ public class twosumproblem_011 {
             for (int j = i+1; j <n ; j++) {
                 if(arr[i]+arr[j] == x){
                     System.out.println(arr[i]+" "+arr[j]);
+                   // System.out.println(i+" "+j);  //use for printing index
 
 
                 }
