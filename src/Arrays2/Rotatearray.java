@@ -1,34 +1,30 @@
 package Arrays2;
 
+import java.util.Arrays;
+
 public class Rotatearray {
     public static void main(String[] args) {
         int[] arr = {6, 8, 1, 8, 4, 9, 0};
         int n = arr.length;
-        int d = 2; // Number of steps to rotate
 
-        // Handle cases where d is greater than n
-        d = d % n;
+        int d = 2; // Adjusted to 2 to get your desired output start
 
-        // Step 1: Reverse the first part
-        reverse(arr, 0, d - 1);
-        // Step 2: Reverse the second part
-        reverse(arr, d, n - 1);
-        // Step 3: Reverse the whole array
-        reverse(arr, 0, n - 1);
+      reverse(arr,0,d-1); // reversing part A [6,8] => [8]  line becomes[8,6,1,8,4,9,0]
+      reverse(arr,d,n-1);  // now we flip (1,8,4,9,0) => [0,9,4,8,1] whole line becomes [8,6,0,9,4,8,1]
+        reverse(arr,0,n-1); // now flip whole line [8,6,0,9,4,8,1] => [1,8,4,9,0,6,8]
 
         // Print the result
-        for (int ele : arr) {
-            System.out.print(ele + " ");
-        }
+        System.out.println(Arrays.toString(arr));
     }
 
-    static void reverse(int[] arr, int i, int j) {
+    // Helper method to reverse elements between indices i and j
+    public static void reverse(int[] arr, int i, int j) {
         while (i < j) {
             int temp = arr[i];
             arr[i] = arr[j];
             arr[j] = temp;
             i++;
-            j--; // Fixed: j must decrease to move inward
+            j--;
         }
     }
 }
