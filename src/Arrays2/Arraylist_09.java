@@ -2,6 +2,7 @@
 package Arrays2;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Arraylist_09 {
     static void main(String[] args) {
@@ -13,9 +14,11 @@ public class Arraylist_09 {
         arr.add(4,18);
         arr.add(5,23);
        System.out.println(arr.get(0));
-        System.out.println(arr);
-        for (int i = 0; i <=5 ; i++) {
-           // System.out.println(arr.get(i)+ " ");
+        System.out.println(arr); // op - [10,11,14,15,18,23]
+        int n = arr.size();
+        n = 5;
+        for (int i = 0; i <=n ; i++) {
+           System.out.print(arr.get(i)+ " "); //op - 10,11,14,15,18,23
 
         }
         System.out.println();
@@ -24,10 +27,12 @@ public class Arraylist_09 {
 
 
         arr.add(90);
+        arr.add(1,78);
         System.out.println(arr.size());
         System.out.println(arr);
 
         arr.remove(0);
+        Collections.reverse(arr); // use to reverse the array
         System.out.println(arr);
         }
     }
