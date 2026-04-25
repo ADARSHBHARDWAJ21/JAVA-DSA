@@ -1,7 +1,7 @@
 package multidimensionalarrays;
 // 2d array is a grid it is a matrix
 
-public class twodarrayy {
+public class twodarrayy_01 {
     static void main(String[] args) {
     // Representation of 2d Array
         int[][] grid = new int[3][4];  // 3 row  // 4 column
