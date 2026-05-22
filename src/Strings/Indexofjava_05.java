@@ -16,7 +16,7 @@ public class Indexofjava_05 {
         //System.out.println(c.contains("slla"));
         System.out.println(c.contains("wallah"));
         // c.startsWith
-        System.out.println(c.startsWith("physa"));
+        System.out.println(c.startsWith("physs"));
         System.out.println(c.endsWith("lls"));
 
         System.out.println();

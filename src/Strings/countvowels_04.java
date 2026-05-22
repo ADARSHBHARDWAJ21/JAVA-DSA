@@ -2,7 +2,6 @@ package Strings;
 import java.util.Scanner;
 
 public class countvowels_04 {
-    // 1. Fixed: main must be public and static
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a String: ");
@@ -20,7 +19,6 @@ public class countvowels_04 {
         sc.close(); // Good practice to close the scanner
     }
 
-    // 2. Fixed: Moved method outside of main and corrected logic
     public static boolean isVowel(char ch) {
         // Convert to lowercase to simplify the check
         ch = Character.toLowerCase(ch);

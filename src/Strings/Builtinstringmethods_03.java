@@ -1,6 +1,6 @@
 package Strings;
 
-public class Builtinstringmethods_03 {
+public class  Builtinstringmethods_03 {
     static void main(String[] args) {
         String s = "Adarsh bhardwaj";
         // space is also a character
