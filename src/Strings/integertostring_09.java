@@ -6,8 +6,7 @@ public class integertostring_09 {
         System.out.println("Enter a number : ");
         int n = sc.nextInt();
         String s = "";
-        s += n;
-        String t = Integer.toString(n);
+        s += n; // s = s+n
         System.out.println(s);
         System.out.println(s.length());
     }
