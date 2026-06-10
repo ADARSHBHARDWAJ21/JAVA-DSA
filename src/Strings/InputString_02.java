@@ -8,5 +8,6 @@ public class InputString_02 {
         String str = sc.nextLine();
         System.out.println("Hi ");
         System.out.println(str);
+        //
     }
 }
