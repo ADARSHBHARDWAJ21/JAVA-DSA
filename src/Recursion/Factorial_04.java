@@ -2,7 +2,7 @@ package Recursion;
 import java.util.Scanner;
 public class Factorial_04 {
    public static int fact(int n) {
-       if(n==1) return 1; // base case
+       if(n==0 || n==1) return 1;; // base case
        int ans = n* fact(n-1);
        return ans; // call
 
