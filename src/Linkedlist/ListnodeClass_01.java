@@ -7,7 +7,21 @@ class Node{
     }
 }
 public class ListnodeClass_01 {
-    
+    public static void print(Node head) {
+        Node temp = head;
+        //for (int i = 1; i <=5 ; i++) {
+        while (temp != null) {
+            System.out.println(temp.val);
+            temp = temp.next;
+        }
+    }
+
+    public static void displayRecursive(Node head) {
+        if(head==null) return;
+        System.out.println(head.val);
+        displayRecursive(head.next);
+        }
+
 
     public static void main(String[] args) {
      Node a = new Node(10);
@@ -39,13 +53,9 @@ public class ListnodeClass_01 {
 //        System.out.println(temp.val);
 //        temp = temp.next;
 //        System.out.println(temp.val);
-        Node temp = a;
-        //for (int i = 1; i <=5 ; i++) {
-         while(temp!=null){
-            System.out.println(temp.val);
-             temp = temp.next;
+            print(a);
+            displayRecursive(c);
         }
 
     }
 
-}
