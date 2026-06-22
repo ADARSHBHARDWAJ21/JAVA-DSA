@@ -9,7 +9,6 @@ class SLL {
 
     // Insert at Head
     void insertAtHead(int val) {
-
         Node temp = new Node(val);
 
         if (head == null) {
