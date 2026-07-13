@@ -1,13 +1,33 @@
 package Methods;
 import java.util.Scanner;
 public class Methods_02 {
-    static void main() {
-        Scanner sc = new Scanner(System.in);
-        double a = sc.nextInt();
-        double b = sc.nextInt();
-        double c = sc.nextInt();
-        double d = sc.nextInt();
-
-        System.out.println(Math.max(Math.max(Math.max(a,b),c),d));
+    static void hii(){
+        System.out.println("Hiii!!");
     }
+
+        // METHOD OVERLOADING - CREATING METHOD WITH SAME NAME
+         static int add(int p, int q){
+        int sum = p+q;
+        return sum;
+         }
+//        static int add(int p, int q, int r ) {
+//            int ans = p + q + r;
+//            return ans;
+//        }
+              static float add(float p, float q, float r ) {
+               float ans = p + q + r;
+                 return ans;
 }
+            static void main() {
+//                System.out.println("hii");
+//                hii();
+//                System.out.println("adarsh");
+                int ans1 = add(2,4);
+                float ans2 = add(5,3,5);
+                System.out.println("ans1: " +ans1);
+                System.out.println("ans2: " +ans2);
+            }
+            // CALL BY VALUE
+
+    }
+
