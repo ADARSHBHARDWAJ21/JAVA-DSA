@@ -1,6 +1,6 @@
 
 // Take two numbers and print add, subtract, multiply, divide
-package day1practise;
+package practise;
 
 public class q7 {
     static void main() {

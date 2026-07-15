@@ -1,5 +1,5 @@
 //Square and cube of a number
-package day1practise;
+package practise;
 import java.util.Scanner;
 public class q13 {
     static void main() {

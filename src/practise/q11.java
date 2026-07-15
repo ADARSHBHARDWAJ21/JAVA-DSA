@@ -1,5 +1,5 @@
 //Convert Celsius to Fahrenheit
-package day1practise;
+package practise;
 import java.util.Scanner;
 
 public class q11 {

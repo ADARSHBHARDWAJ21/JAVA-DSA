@@ -36,8 +36,11 @@ public class revision_04 {
         for(String strr: words){
             System.out.println(strr);
         }
+        // replace (char oldChar, char newChar)
 
-
+         String naaaame = "babbar";
+        name = name.replace('b','l');
+        System.out.println(name);
 
     }
 }

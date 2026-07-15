@@ -1,4 +1,4 @@
-package day1practise;
+package practise;
 
 public class q2 {
     static void main() {

@@ -1,5 +1,4 @@
-package day1practise;
-import java.util.Arrays;
+package practise;
 
 public class missingarray {
     public static void main(String[] args) {

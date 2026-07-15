@@ -1,4 +1,4 @@
-package day1practise;
+package practise;
 import java.util.Scanner;
 public class q1 {
     static void main() {

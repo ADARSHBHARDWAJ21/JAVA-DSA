@@ -1,5 +1,5 @@
 //. Calculate simple interest (input: principal, rate, time)
-package day1practise;
+package practise;
 import java.util.Scanner;
 
 public class q10 {

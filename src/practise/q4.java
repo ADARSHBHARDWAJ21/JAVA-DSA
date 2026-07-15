@@ -1,6 +1,6 @@
 
 //Store and print int, float, char, string
-package day1practise;
+package practise;
 
 public class q4 {
     static void main() {
