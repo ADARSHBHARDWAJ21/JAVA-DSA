@@ -9,6 +9,7 @@ public class Linkedlist_02 {
         linkedlist.add(11);
         linkedlist.add(12);
         linkedlist.add(14);
+        linkedlist.add(23);
         System.out.println(linkedlist.get(2));
 
         //addFirst and addLast
